@@ -1,0 +1,106 @@
+Success (4):
+content 216422 _a-0000dd8f-279d-8000-927a-010000010000_233092 "Jenkins_test"
+content 216423 _a-0000dd8f-279d-8000-927a-010000010000_233093 "TestRules"
+content 216425 _a-0000dd8f-279d-8000-927a-010000010000_233094 "ExpressionRuleTest"
+application 216421 _a-0000dd8f-279d-8000-927a-010000010000_233091 "TestApp"
+
+Referenced precedents that were not exported (1):
+user chris chris
+
+Trace:
+2016-09-15 12:45:29.554 DEBUG application 216421 _a-0000dd8f-279d-8000-927a-010000010000_233091 Begin transport.
+2016-09-15 12:45:29.554 DEBUG application 216421 _a-0000dd8f-279d-8000-927a-010000010000_233091 Retrieving object data.
+2016-09-15 12:45:29.567 DEBUG application 216421 _a-0000dd8f-279d-8000-927a-010000010000_233091 App associated objects: GlobalIdMap[content=[_a-0000dd8f-279d-8000-927a-010000010000_233092, _a-0000dd8f-279d-8000-927a-010000010000_233093, _a-0000dd8f-279d-8000-927a-010000010000_233094]]
+2016-09-15 12:45:29.569 DEBUG application 216421 _a-0000dd8f-279d-8000-927a-010000010000_233091 Invalid associated objects: GlobalIdMap[]
+2016-09-15 12:45:29.569 DEBUG application 216421 _a-0000dd8f-279d-8000-927a-010000010000_233091 Adding valid associated objects to be exported: GlobalBindingMap[content={_a-0000dd8f-279d-8000-927a-010000010000_233092=216422, _a-0000dd8f-279d-8000-927a-010000010000_233093=216423, _a-0000dd8f-279d-8000-927a-010000010000_233094=216425}]
+2016-09-15 12:45:29.57 DEBUG application 216421 _a-0000dd8f-279d-8000-927a-010000010000_233091 Setting uuids of object references.
+2016-09-15 12:45:29.57 DEBUG application 216421 _a-0000dd8f-279d-8000-927a-010000010000_233091 Processing reference: Application.forum
+2016-09-15 12:45:29.57 DEBUG application 216421 _a-0000dd8f-279d-8000-927a-010000010000_233091 Processing reference: Application.parent
+2016-09-15 12:45:29.574 DEBUG application 216421 _a-0000dd8f-279d-8000-927a-010000010000_233091 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@15a613db[
+  ContentRole[name=readers,inherit=false,allowForAll=false]
+  ContentRole[name=authors,inherit=false,allowForAll=false]
+  ContentRole[name=administrators,usernames=[chris],inherit=false,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=129:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=true,SEC_INH_ADMIN=false,SEC_INH_EDITOR=false,SEC_INH_VIEWER=false,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2016-09-15 12:45:29.574 DEBUG application 216421 _a-0000dd8f-279d-8000-927a-010000010000_233091 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=false]
+2016-09-15 12:45:29.574 DEBUG application 216421 _a-0000dd8f-279d-8000-927a-010000010000_233091 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
+2016-09-15 12:45:29.574 DEBUG application 216421 _a-0000dd8f-279d-8000-927a-010000010000_233091 Processing reference: ContentRole[name=administrators,usernames=[chris],inherit=false,allowForAll=false]
+2016-09-15 12:45:29.575 DEBUG application 216421 _a-0000dd8f-279d-8000-927a-010000010000_233091 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2016-09-15 12:45:29.575 DEBUG application 216421 _a-0000dd8f-279d-8000-927a-010000010000_233091 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2016-09-15 12:45:29.575 DEBUG application 216421 _a-0000dd8f-279d-8000-927a-010000010000_233091 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2016-09-15 12:45:29.578 DEBUG content 216422 _a-0000dd8f-279d-8000-927a-010000010000_233092 Begin transport.
+2016-09-15 12:45:29.578 DEBUG content 216422 _a-0000dd8f-279d-8000-927a-010000010000_233092 Retrieving object data.
+2016-09-15 12:45:30.428 DEBUG content 216422 _a-0000dd8f-279d-8000-927a-010000010000_233092 Setting uuids of object references.
+2016-09-15 12:45:30.428 DEBUG content 216422 _a-0000dd8f-279d-8000-927a-010000010000_233092 Processing reference: RulesFolder.forum
+2016-09-15 12:45:30.429 DEBUG content 216422 _a-0000dd8f-279d-8000-927a-010000010000_233092 Processing reference: RulesFolder.parent
+2016-09-15 12:45:30.433 DEBUG content 216422 _a-0000dd8f-279d-8000-927a-010000010000_233092 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@a664787[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2016-09-15 12:45:30.433 DEBUG content 216422 _a-0000dd8f-279d-8000-927a-010000010000_233092 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2016-09-15 12:45:30.433 DEBUG content 216422 _a-0000dd8f-279d-8000-927a-010000010000_233092 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2016-09-15 12:45:30.433 DEBUG content 216422 _a-0000dd8f-279d-8000-927a-010000010000_233092 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2016-09-15 12:45:30.433 DEBUG content 216422 _a-0000dd8f-279d-8000-927a-010000010000_233092 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2016-09-15 12:45:30.433 DEBUG content 216422 _a-0000dd8f-279d-8000-927a-010000010000_233092 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2016-09-15 12:45:30.433 DEBUG content 216422 _a-0000dd8f-279d-8000-927a-010000010000_233092 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2016-09-15 12:45:30.433 DEBUG content 216422 _a-0000dd8f-279d-8000-927a-010000010000_233092 Exporting binary resources.
+2016-09-15 12:45:30.433 DEBUG content 216422 _a-0000dd8f-279d-8000-927a-010000010000_233092 Serializing object to XML.
+2016-09-15 12:45:30.434 DEBUG content 216422 _a-0000dd8f-279d-8000-927a-010000010000_233092 Object transported.
+2016-09-15 12:45:30.434 DEBUG content 216423 _a-0000dd8f-279d-8000-927a-010000010000_233093 Begin transport.
+2016-09-15 12:45:30.434 DEBUG content 216423 _a-0000dd8f-279d-8000-927a-010000010000_233093 Retrieving object data.
+2016-09-15 12:45:31.319 DEBUG content 216423 _a-0000dd8f-279d-8000-927a-010000010000_233093 Setting uuids of object references.
+2016-09-15 12:45:31.32 DEBUG content 216423 _a-0000dd8f-279d-8000-927a-010000010000_233093 Processing reference: RulesFolder.forum
+2016-09-15 12:45:31.32 DEBUG content 216423 _a-0000dd8f-279d-8000-927a-010000010000_233093 Processing reference: RulesFolder.parent
+2016-09-15 12:45:31.324 DEBUG content 216423 _a-0000dd8f-279d-8000-927a-010000010000_233093 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@66b2b48a[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2016-09-15 12:45:31.324 DEBUG content 216423 _a-0000dd8f-279d-8000-927a-010000010000_233093 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2016-09-15 12:45:31.324 DEBUG content 216423 _a-0000dd8f-279d-8000-927a-010000010000_233093 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2016-09-15 12:45:31.324 DEBUG content 216423 _a-0000dd8f-279d-8000-927a-010000010000_233093 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2016-09-15 12:45:31.324 DEBUG content 216423 _a-0000dd8f-279d-8000-927a-010000010000_233093 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2016-09-15 12:45:31.324 DEBUG content 216423 _a-0000dd8f-279d-8000-927a-010000010000_233093 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2016-09-15 12:45:31.324 DEBUG content 216423 _a-0000dd8f-279d-8000-927a-010000010000_233093 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2016-09-15 12:45:31.324 DEBUG content 216423 _a-0000dd8f-279d-8000-927a-010000010000_233093 Exporting binary resources.
+2016-09-15 12:45:31.324 DEBUG content 216423 _a-0000dd8f-279d-8000-927a-010000010000_233093 Serializing object to XML.
+2016-09-15 12:45:31.325 DEBUG content 216423 _a-0000dd8f-279d-8000-927a-010000010000_233093 Object transported.
+2016-09-15 12:45:31.325 DEBUG content 216425 _a-0000dd8f-279d-8000-927a-010000010000_233094 Begin transport.
+2016-09-15 12:45:31.325 DEBUG content 216425 _a-0000dd8f-279d-8000-927a-010000010000_233094 Retrieving object data.
+2016-09-15 12:45:31.331 DEBUG content 216425 _a-0000dd8f-279d-8000-927a-010000010000_233094 Setting uuids of object references.
+2016-09-15 12:45:31.331 DEBUG content 216425 _a-0000dd8f-279d-8000-927a-010000010000_233094 Processing reference: [Content:id=216424,versionId=-1,name=ExpressionRuleTest,description=doesnt matter really,type=32,subtype=1,uuid=_a-0000dd8f-279d-8000-927a-010000010000_233094,parent=216423,parentName=TestRules,parentType=2,log=216425,logName=ExpressionRuleTest,state=255,visibility=35,security=15,creator=chris,createdTimestamp=2016-09-15 12:45:13.0,updatedTimestamp=2016-09-15 12:45:13.0,size=0,lockedBy=,changesRequireApproval=false,attributes={dep_rules=[Ljava.lang.Long;@1be1311d, system=0, preferredEditor=legacy, hidden=0, ruletype=1, dep_functions=[Ljava.lang.String;@663f07fa, definition=true, dep_types=[Ljava.lang.String;@7c01a5b7, parameters=[Lcom.appiancorp.suiteapi.process.TypedVariable;@1be222bb, dep_variables=[[Ljava.lang.String;@9198103},partition=3,partitionName=D:/Appian/_admin/accdocs3]
+2016-09-15 12:45:31.331 DEBUG content 216425 _a-0000dd8f-279d-8000-927a-010000010000_233094 Processing reference: FreeformRule.forum
+2016-09-15 12:45:31.332 DEBUG content 216425 _a-0000dd8f-279d-8000-927a-010000010000_233094 Processing reference: FreeformRule.parent
+2016-09-15 12:45:31.335 DEBUG content 216425 _a-0000dd8f-279d-8000-927a-010000010000_233094 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@7590025e[
+  ContentRole[name=readers,inherit=true,allowForAll=false]
+  ContentRole[name=authors,inherit=true,allowForAll=false]
+  ContentRole[name=administrators,inherit=true,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=15:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=true,SEC_INH_EDITOR=true,SEC_INH_VIEWER=true,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2016-09-15 12:45:31.335 DEBUG content 216425 _a-0000dd8f-279d-8000-927a-010000010000_233094 Processing reference: ContentRole[name=readers,inherit=true,allowForAll=false]
+2016-09-15 12:45:31.335 DEBUG content 216425 _a-0000dd8f-279d-8000-927a-010000010000_233094 Processing reference: ContentRole[name=authors,inherit=true,allowForAll=false]
+2016-09-15 12:45:31.335 DEBUG content 216425 _a-0000dd8f-279d-8000-927a-010000010000_233094 Processing reference: ContentRole[name=administrators,inherit=true,allowForAll=false]
+2016-09-15 12:45:31.335 DEBUG content 216425 _a-0000dd8f-279d-8000-927a-010000010000_233094 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2016-09-15 12:45:31.335 DEBUG content 216425 _a-0000dd8f-279d-8000-927a-010000010000_233094 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2016-09-15 12:45:31.335 DEBUG content 216425 _a-0000dd8f-279d-8000-927a-010000010000_233094 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2016-09-15 12:45:31.336 DEBUG content 216425 _a-0000dd8f-279d-8000-927a-010000010000_233094 Exporting binary resources.
+2016-09-15 12:45:31.336 DEBUG content 216425 _a-0000dd8f-279d-8000-927a-010000010000_233094 Serializing object to XML.
+2016-09-15 12:45:31.336 DEBUG content 216425 _a-0000dd8f-279d-8000-927a-010000010000_233094 Object transported.
+2016-09-15 12:45:31.336 DEBUG application 216421 _a-0000dd8f-279d-8000-927a-010000010000_233091 Exporting binary resources.
+2016-09-15 12:45:31.336 DEBUG application 216421 _a-0000dd8f-279d-8000-927a-010000010000_233091 Serializing object to XML.
+2016-09-15 12:45:31.337 DEBUG application 216421 _a-0000dd8f-279d-8000-927a-010000010000_233091 Object transported.
